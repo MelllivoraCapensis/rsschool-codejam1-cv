@@ -93,3 +93,33 @@ html,body{
 	list-style-image: url("http://htmlbook.ru/themes/hb/img/icon_yes2.png");
 
 }
+@keyframes change-label{
+	0%{
+		color:rgba(118,179,66,1);
+	}
+	50%{
+		color:rgba(118,179,66,0.5);
+	}
+	100%{
+		color:rgba(118,179,66,1);
+	}
+
+}
+.main div:nth-of-type(2n) .right,
+.main div:nth-of-type(2n+1) .left {
+	text-align: center;
+	font-size: 35px;
+	font-family: "Mali",Arial;
+	font-weight: bold;
+	animation: change-label 3s infinite;
+}
+.main>div:nth-of-type(1),.main>div:nth-of-type(2){
+	order-bottom: 3px dashed green;
+}
+.main .my-code{
+	height: 100px;
+	box-shadow: 0 0 10px 2px #d5d6e8;
+	font-family: "Mali",Arial;
+	font-size:30px;
+	text-align:center;
+}
