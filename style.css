@@ -78,3 +78,18 @@ html,body{
 	font-weight: bold;
 	font-family: "Poppins",Arial;
 }
+.main .about-me,.main .my-skills, .main .my-experience{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;	
+}
+.main .left,.main .right{
+	width: 49%;
+	padding: 30px;
+	text-align:justify;
+	font-family: "Roboto+Mono",Arial;
+}
+.main ul{
+	list-style-image: url("http://htmlbook.ru/themes/hb/img/icon_yes2.png");
+
+}
