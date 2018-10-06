@@ -63,3 +63,18 @@ html,body{
 
 	animation: logo-p-second 1s ease-in 1s forwards;
 }
+.wrapper .header .photo-name .photo{
+	width: 200px;
+	height: 170px;
+	margin: 10px auto;
+	border-radius: 50%;
+	background: url('https://yt3.ggpht.com/a-/AJLlDp0I8PUNsivlLPBbfMe1Q4RphSuyvMJkbDPPXQ=s900-mo-c-c0xffffffff-rj-k-no');
+    background-size: cover;
+}
+.wrapper .header .photo-name .name{
+	text-align: center;
+	font-size: 27px;
+	color:gray;
+	font-weight: bold;
+	font-family: "Poppins",Arial;
+}
