@@ -1,1 +1,24 @@
-
+html,body{
+	min-height: 100%;
+}
+.wrapper{
+	width: 90%;
+	max-width: 1024px;
+	min-width: 600px;
+	min-height: 100%;
+	margin: 20px auto;
+}
+.wrapper .header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 250px;
+	margin-bottom: 20px;
+    box-shadow: 0 0 10px 2px #d5d6e8;
+    background: #f8f9fe;
+}
+.wrapper .main{
+	min-height: 100%;
+	box-shadow: 0 0 10px 2px #d5d6e8;
+	background: #f8f9fe;
+}
