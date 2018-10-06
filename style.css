@@ -117,9 +117,17 @@ html,body{
 	order-bottom: 3px dashed green;
 }
 .main .my-code{
-	height: 100px;
 	box-shadow: 0 0 10px 2px #d5d6e8;
 	font-family: "Mali",Arial;
 	font-size:30px;
 	text-align:center;
+}
+.main .my-code .images{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.main .my-code .images img{
+	margin-bottom: 20px;
+	border:1px solid lightgray;
 }
