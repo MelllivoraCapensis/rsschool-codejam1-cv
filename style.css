@@ -22,3 +22,44 @@ html,body{
 	box-shadow: 0 0 10px 2px #d5d6e8;
 	background: #f8f9fe;
 }
+.wrapper .header .logo{
+	position: relative;
+	width: 45%;
+	color:#230E2d;
+	font-family: "Mali",Arial;
+}
+.wrapper .header .photo-name{
+	width: 45%;
+}
+@keyframes logo-p-first{
+	from{
+		top:-500px;
+	}
+	to{
+		top:-20px;
+	}
+}
+@keyframes logo-p-second{
+	from{
+		left:-500px;
+	}
+	to{
+		left:25%;
+	}
+}
+.wrapper .header .logo p:first-of-type{
+	position: absolute;
+	left:15%;
+	font-size:50px;
+	font-weight: bold;
+	animation: logo-p-first 1s ease-in;
+}
+.wrapper .header .logo p:last-of-type{
+	position: absolute;
+	top:80px;
+	left:-500px;
+	font-size:50px;
+	font-weight: bold;
+
+	animation: logo-p-second 1s ease-in 1s forwards;
+}
